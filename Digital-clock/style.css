@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?cs=srgb&dl=pexels-pixabay-158063.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: greenyellow;
+    opacity: 80%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock #text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: green;
+    opacity: 80%;
+    color: white;
+}
+
+.clock #am-pm{
+    bottom: 37vh;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background-color: green;
+    opacity: 80%;
+    color: white;
+}
